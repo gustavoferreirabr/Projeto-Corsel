@@ -16,6 +16,10 @@
     padding: 0px;
 }
 
+body{
+    height: 98vh;
+}
+
 header{
     background-color: black;
     width: auto;
@@ -84,12 +88,13 @@ section > p{
     padding-bottom: 10px;
     padding-left: 10px;
     display: inline-block;
+    line-height: 65px;
+    font-size: 1,5vw;
 }
 
 
 p.nao-transparente{
     background-color: rgb(255, 255, 255);
-    line-height: 50px;
     font-family: var(--font-padrão);
     font-style: italic;
     width: 500px;
@@ -102,7 +107,6 @@ p.transparente{
     background-color: rgba(3, 0, 0, 0.158);
     color: white;
     max-width: 500px;
-    line-height: 40px;
     font-family: var(--font-padrão);
     font-weight: bold;
     font-style: italic;
